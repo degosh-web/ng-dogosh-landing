@@ -1,0 +1,48 @@
+#outOfStockDiv {
+	opacity: 0;
+	color: white;
+	background-color: black;
+	border-radius: 1px;
+	transform: scale(0.3);
+	font-family: 'Roboto';
+	margin: auto;
+	padding: 1%;
+	height: 20%;
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.3s;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	cursor: default;
+}
+
+
+/*former #giantLogo*/
+#upperDiv:hover .giantLogo {
+	filter: blur(4px);
+	transition: 0.3s;	
+}
+
+#upperDiv:hover #outOfStockDiv {
+	opacity: 1;
+	transition: 0.3s;
+	transform: scale(1);
+}
+
+/*former #giantLogo*/
+.giantLogo {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	transition: 0.3s;
+}

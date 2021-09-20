@@ -1,0 +1,150 @@
+#vl {
+	position: absolute;
+	top: 0;
+	bottom: 0;		
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+
+#lowerDiv {
+	position: absolute;
+	margin: auto;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 90%;
+	padding: 0;
+	height: 15%;
+
+	background-color: transparent;
+	border: 1px black solid;
+
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 2%;
+}
+
+#lowerIconsDiv {
+	flex: 2;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	/*
+	padding-left: 35%;
+	padding-right: 35%;
+	*/
+
+	background-color: transparent;
+
+	padding-top: 0;
+    padding-bottom: 0;
+	max-height: 70%;
+
+	display: flex;
+	flex-direction: row;
+}
+
+#imgsDiv {
+	flex: 10;
+	position: relative;
+	height: 100%;
+	max-width: 22%;
+	padding-left: 26%;
+
+	display: flex;
+	flex-direction: row;
+}
+#vlDiv {
+	flex: 1;
+	position: relative;
+	height: 100%;
+	max-width: 4%;
+}
+#dbbDiv {
+	flex: 10;
+	max-width: 48%;
+}
+
+#dashboardBtn {
+	flex: 2;
+	max-width: 220px;
+	min-width: 180px;
+	min-height: 45px;
+	/*margin-left: 12%;*/
+	left: 0;
+}
+
+.socialIcon {
+	flex: 1;
+	height: 50%;
+	width: 50%;
+	margin-left: 8%;
+	transform: scale(1);
+
+	align-self: center;
+	justify-self: center;
+	transition: 0.2s;
+}
+
+.socialIcon:hover {
+	transform: scale(.95);
+	opacity: 0.5;
+	transition: 0.2s;
+}
+
+#footerDiv {
+	flex: 1;
+    width: 100%;
+	height: 100%;
+    text-align: center;
+	text-justify: center;
+	min-height: 15px;
+    font-size: 12px;
+	position: relative;
+
+	background-color: transparent;
+}
+
+#footerTextDiv {
+	position: absolute;
+	height: 20px;
+	text-align: center;
+	text-justify: center;
+	top: 0;
+	bottom: 0;		
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+
+.normalFooter {
+    color: black;
+    opacity: 0.65;
+
+	font-family: 'Roboto';
+	font-size: 16px;
+    cursor: default;
+    outline: none;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.boldFooter {
+    color: #9966FF;
+    opacity: 0.5;
+    transition: 0.2s;
+
+	font-family: 'Roboto';
+	font-size: 16px;
+    cursor: default;
+    outline: none;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.boldFooter:hover {
+    opacity: 1;
+    transition: 0.2s;
+    outline: none;
+}
